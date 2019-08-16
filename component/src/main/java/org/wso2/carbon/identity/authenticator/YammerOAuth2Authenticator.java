@@ -51,7 +51,7 @@ import java.util.*;
 public class YammerOAuth2Authenticator extends OpenIDConnectAuthenticator implements FederatedApplicationAuthenticator {
 
     private static final long serialVersionUID = -1179165995021182755L;
-    private static Log log = LogFactory.getLog(YammerOAuth2Authenticator.class);
+    private static final Log log = LogFactory.getLog(YammerOAuth2Authenticator.class);
 
     /**
      * @return
